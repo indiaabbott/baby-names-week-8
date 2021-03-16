@@ -1,21 +1,18 @@
 import React from 'react';
-import { NumberLiteralType } from 'typescript';
 import './App.css';
-import BabyNames from './babynames.json'
+import MapNames from './Components/NamesBaby';
 
 
-interface BabyNamesTypes {
-  name: string;
-  id: number;
-  sex: string
-};
+
 
 function App() {
   return (
     <div className="App">
+    <MapNames />
 
     </div>
   );
 }
+
 
 export default App;
